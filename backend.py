@@ -7,8 +7,6 @@ datafile = os.path.join(datadir, 'shopdata.db')
 conn = sqlite3.connect(datafile)
 c = conn.cursor()
 
-
-
 def connect():
     conn = sqlite3.connect(datafile)
     c = conn.cursor()
